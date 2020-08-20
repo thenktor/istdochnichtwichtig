@@ -1,0 +1,28 @@
+<aside>
+	<div>
+		{{ $related := .Site.RegularPages.Related . | first 3 }}
+		{{ with $related }}
+			<div>
+				<h3>VERWANDTE BEITRÄGE</h3>
+			</div>
+			<div>
+				<ul>
+				{{ range . }}
+				<li><a href="{{ .RelPermalink }}">{{ .Title }}</a> <small>({{ .Date.Format "02.01.2006" }})</small></li>
+				{{ end }}
+				</ul>
+			</div>
+		{{ end }}
+		<div>
+			<h3>ZUFÄLLIGE BEITRÄGE</h3>
+		</div>
+		<div>
+			<ul>
+				{{ range first 3 (shuffle (where (where .Site.RegularPages "Section" "posts") "Title" "!=" .Title )) }}
+				<li><a href="{{ .RelPermalink }}">{{ .Title }}</a> <small>({{ .Date.Format "02.01.2006" }})</small></li>
+				{{ end }}
+			</ul>
+		</div>
+		
+	</div>
+</aside>

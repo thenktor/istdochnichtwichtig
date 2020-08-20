@@ -1,0 +1,163 @@
+/* URW Gothic L */
+@font-face {
+  font-family: "URW Gothic L";
+  src: url("/fonts/URWGothicL/URWGothicLBook.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "URW Gothic L";
+  src: url("/fonts/URWGothicL/URWGothicLBookItalic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "URW Gothic L";
+  src: url("/fonts/URWGothicL/URWGothicLBold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "URW Gothic L";
+  src: url("/fonts/URWGothicL/URWGothicLBoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Jost - http://indestructibletype.com/Jost.html */
+@font-face {
+  font-family: "Jost*";
+  src: url("/fonts/Jost/Jost-400-Book.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Jost*";
+  src: url("/fonts/Jost/Jost-400-BookItalic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Jost*";
+  src: url("/fonts/Jost/Jost-500-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Jost*";
+  src: url("/fonts/Jost/Jost-500-MediumItalic.woff2") format("woff2");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+html {overflow-y: scroll}
+body {
+	max-width: 800px;
+	margin: 40px auto;
+	padding: 0 10px;
+	color: #222;
+	font-family: "URW Gothic L", "Tex Gyre Adventor", "Century Gothic", Avenir, sans-serif;
+	font-weight: 400;
+	text-rendering: optimizeLegibility;
+	font-size: 16px;
+	line-height: 1.5;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Jost*", Futura, "URW Gothic L", "Tex Gyre Adventor", "Century Gothic", sans-serif;
+	font-weight: 500;
+	letter-spacing: 0.2px;
+	text-rendering: optimizeLegibility;
+}
+h1,h2,h3 {
+	line-height: 1.2;
+}
+a:link {
+	color: #0000EE;
+}
+a:visited {
+	color: #551A8B;
+}
+a:hover {
+	color: #EE0000;
+}
+img {
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 100%;
+}
+img.site-logo {
+	display: inline;
+	margin: auto;
+    width: 80px;
+	height: 80px;
+	vertical-align: middle;
+}
+code {
+	color: #fff;
+	background: #000;
+	padding: 2px
+}
+pre {
+	color: #fff;
+	background: #000;
+	padding: 24px;
+	white-space: pre-wrap
+}
+article {
+	padding: 20px 0
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+.site-title a {
+	text-decoration: none;
+	color: #222;
+}
+
+p.post-date-tags {
+  font-size: smaller;
+}
+
+blockquote {
+  background-color: #eee;
+  border-left: 25px solid #ccc;
+  line-height: 1.25em;
+  margin: 2em auto;
+  padding: 1% 5%;
+  width: 80%;
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		color: #eee;
+		background: #222;
+	}
+	a:link {
+		color: #5bf;
+	}
+	a:visited {
+		color: #ccf;
+	}
+	a:hover {
+		color: #faa;
+	}
+	.site-title a {
+		color: #eee;
+	}
+	blockquote {
+		background-color: #333;
+		border-left: 25px solid #555;
+	}
+}
