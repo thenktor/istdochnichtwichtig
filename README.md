@@ -2,7 +2,7 @@
 
 A minimal blogging theme for Hugo that respects your privacy and is easy on your bandwidth.
 
-A real-life example can be found at [](https://www.gebiert.de).
+A real-life example can be found at [geBIERt](https://www.gebiert.de).
 
 istdochnichtwichtig is based on [smol](https://github.com/colorchestra/smol) created by [morph](https://morph.sh/).
 
