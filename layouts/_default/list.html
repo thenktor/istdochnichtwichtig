@@ -9,13 +9,17 @@
 		{{ end }}
 		
 		<ul>
-		    {{ range .Paginator.Pages }}
-		    <li>
-		        <div class="post-title">
-				    <a href="{{ .RelPermalink }}">{{.Title }}</a> <small>({{ .Date.Format "02.01.2006" }})</small>
-		        </div>
-		    </li>
-		    {{ end }}
+			{{ $paginatelist := 10 }}
+			{{ if isset .Site.Params "paginatelist" }}
+				{{ $paginatelist = .Site.Params.PaginateList }}
+			{{ end }}
+			{{ range (.Paginator $paginatelist).Pages }}
+			<li>
+				<div class="post-title">
+					<a href="{{ .RelPermalink }}">{{.Title }}</a> <small>({{ .Date.Format "02.01.2006" }})</small>
+				</div>
+			</li>
+			{{ end }}
 		</ul>
 		{{ partial "pagination.html" . }}
 	</main>
