@@ -103,13 +103,13 @@ img.site-logo {
 }
 code {
 	font-family: "Courier Prime Source", "Courier", "Courier New", monospace;
-	color: #f8f8f2;
-	background: #272822;
+	color: #fff;
+	background: #1c1c1c;
 	padding: 2px
 }
 pre {
 	color: #fff;
-	background: #000;
+	background: #1c1c1c;
 	padding: 24px;
 	white-space: pre-wrap
 }
@@ -143,7 +143,7 @@ blockquote {
 @media (prefers-color-scheme: dark) {
 	body {
 		color: #eee;
-		background: #222;
+		background: #2c2c2c;
 	}
 	a:link {
 		color: #5bf;
