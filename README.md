@@ -51,6 +51,11 @@ customCSS = ["css/custom.css"]
 
 # how many antries should the list have? (tags, categories, ...)
 paginateList = 100
+
+[markup]
+[markup.highlight]
+# match syntax highlighting colors to code color
+style = "solarized-dark256"
 ```
 
 Lastly, add the following lines to your `config.toml` to make use of all the menu entries in the header and footer sections if you need them.
