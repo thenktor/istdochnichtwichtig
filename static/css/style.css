@@ -103,15 +103,17 @@ img.site-logo {
 }
 code {
 	font-family: "Courier Prime Source", "Courier", "Courier New", monospace;
+}
+p > code {
 	color: #fff;
-	background: #1c1c1c;
-	padding: 2px
+	background: #000;
+	padding: 2px;
 }
 pre {
 	color: #fff;
-	background: #1c1c1c;
+	background: #000;
 	padding: 24px;
-	white-space: pre-wrap
+	white-space: pre-wrap;
 }
 article {
 	padding: 20px 0
