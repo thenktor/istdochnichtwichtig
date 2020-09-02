@@ -128,18 +128,22 @@ article {
 	text-decoration: none;
 	color: #222;
 }
-
 p.post-date-tags {
-  font-size: smaller;
+	font-size: smaller;
 }
-
 blockquote {
-  background-color: #eee;
-  border-left: 25px solid #ccc;
-  line-height: 1.25em;
-  margin: 2em auto;
-  padding: 1% 5%;
-  width: 80%;
+	background-color: #eee;
+	border-left: 25px solid #ccc;
+	line-height: 1.25em;
+	margin: 2em auto;
+	padding: 1% 5%;
+	width: 80%;
+}
+table {
+	border-collapse: collapse;
+}
+table, th, td {
+	border: 1px solid #ccc;
 }
 
 @media (prefers-color-scheme: dark) {
