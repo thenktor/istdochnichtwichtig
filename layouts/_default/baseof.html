@@ -22,7 +22,14 @@
 		{{end}}
 		href="{{ .Site.Params.Favicon }}">
 	{{ end }}
-	{{ if isset .Site.Params "appletouchicon" }}<link rel="apple-touch-icon-precomposed" type="image/png" href="{{ .Site.Params.AppleTouchIcon }}">{{ end }}
+	{{ if isset .Site.Params "appletouchicon" }}<link rel="apple-touch-icon-precomposed"
+		{{ if isset .Site.Params "appletouchicontype" }}
+			type="{{ .Site.Params.AppleTouchIconType }}"
+		{{ else }}
+			type="image/png"
+		{{end}}
+		href="{{ .Site.Params.AppleTouchIcon }}">
+	{{ end }}
 	{{ with .OutputFormats.Get "RSS" -}}
 		{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
 	{{- end }}
