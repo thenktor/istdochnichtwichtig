@@ -97,9 +97,8 @@ img {
 img.site-logo {
 	display: inline;
 	margin: auto;
-    width: 80px;
+	width: 80px;
 	height: 80px;
-	vertical-align: middle;
 }
 code {
 	font-family: "Courier Prime Source", "Courier", "Courier New", monospace;
@@ -123,6 +122,13 @@ article {
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
+}
+.site-title {
+	display: flex;
+}
+.site-title * {
+	margin-top:auto;
+	margin-bottom:auto;
 }
 .site-title a {
 	text-decoration: none;
