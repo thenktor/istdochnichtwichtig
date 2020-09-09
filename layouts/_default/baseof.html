@@ -8,9 +8,11 @@
 	{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
 	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
 	<link rel="stylesheet" href="{{ "css/style.css" | relURL }}?rnd={{ now.Unix }}">
-	<link rel="preload" href="{{ "fonts/URWGothicL/URWGothicLBook.woff2"  | relURL }}" as="font" type="font/woff2" crossorigin>
-	<link rel="preload" href="{{ "fonts/URWGothicL/URWGothicLBold.woff2"  | relURL }}" as="font" type="font/woff2" crossorigin>
-	<link rel="preload" href="{{ "fonts/Jost/Jost-500-Medium.woff2"  | relURL }}" as="font" type="font/woff2" crossorigin>
+	{{ if isset .Site.Params "preloadwoff2fonts" }}
+		{{ range .Site.Params.preloadWoff2Fonts -}}
+			<link rel="preload" href="{{ .  | relURL }}" as="font" type="font/woff2" crossorigin>
+		{{- end }}
+	{{ end }}
 	{{ range .Site.Params.customCSS -}}
 		<link rel="stylesheet" href="{{ . | relURL }}?rnd={{ now.Unix }}">
 	{{- end }}
