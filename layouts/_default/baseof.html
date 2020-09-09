@@ -17,17 +17,23 @@
 	{{ if isset .Site.Params "favicon" }}<link rel="icon" 
 		{{ if isset .Site.Params "favicontype" }}
 			type="{{ .Site.Params.FaviconType }}"
+			{{ if eq .Site.Params.AppleTouchIconType "image/svg+xml" }}
+				sizes="any"
+			{{ end }}
 		{{ else }}
 			type="image/x-icon"
 		{{end}}
 		href="{{ .Site.Params.Favicon }}">
 	{{ end }}
-	{{ if isset .Site.Params "appletouchicon" }}<link rel="apple-touch-icon-precomposed"
+	{{ if isset .Site.Params "appletouchicon" }}<link rel="apple-touch-icon"
 		{{ if isset .Site.Params "appletouchicontype" }}
 			type="{{ .Site.Params.AppleTouchIconType }}"
+			{{ if eq .Site.Params.AppleTouchIconType "image/svg+xml" }}
+				sizes="any"
+			{{ end }}
 		{{ else }}
 			type="image/png"
-		{{end}}
+		{{ end }}
 		href="{{ .Site.Params.AppleTouchIcon }}">
 	{{ end }}
 	{{ with .OutputFormats.Get "RSS" -}}
