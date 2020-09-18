@@ -1,0 +1,24 @@
+/* Josefin Sans */
+@font-face {
+  font-family: "Josefin Sans";
+  src: url("/fonts/JosefinSans/JosefinSans-VariableFont_wght.woff2") format("woff2");
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Josefin Sans";
+  src: url("/fonts/JosefinSans/JosefinSans-Italic-VariableFont_wght.woff2") format("woff2");
+  font-style: italic;
+  font-display: swap;
+}
+
+body {
+	font-family: "Jost*", Futura, Helvetica, sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Josefin Sans", Futura, Helvetica, sans-serif;
+	font-weight: 650;
+}
