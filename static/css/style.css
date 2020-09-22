@@ -1,70 +1,70 @@
 /* URW Gothic L */
 @font-face {
-  font-family: "URW Gothic L";
-  src: url("/fonts/URWGothicL/URWGothicLBook.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
+	font-family: "URW Gothic L";
+	src: url("/fonts/URWGothicL/URWGothicLBook.woff2") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
 }
 @font-face {
-  font-family: "URW Gothic L";
-  src: url("/fonts/URWGothicL/URWGothicLBookItalic.woff2") format("woff2");
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
+	font-family: "URW Gothic L";
+	src: url("/fonts/URWGothicL/URWGothicLBookItalic.woff2") format("woff2");
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
 }
 @font-face {
-  font-family: "URW Gothic L";
-  src: url("/fonts/URWGothicL/URWGothicLBold.woff2") format("woff2");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
+	font-family: "URW Gothic L";
+	src: url("/fonts/URWGothicL/URWGothicLBold.woff2") format("woff2");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
 }
 @font-face {
-  font-family: "URW Gothic L";
-  src: url("/fonts/URWGothicL/URWGothicLBoldItalic.woff2") format("woff2");
-  font-weight: 700;
-  font-style: italic;
-  font-display: swap;
+	font-family: "URW Gothic L";
+	src: url("/fonts/URWGothicL/URWGothicLBoldItalic.woff2") format("woff2");
+	font-weight: 700;
+	font-style: italic;
+	font-display: swap;
 }
 
 /* Jost - http://indestructibletype.com/Jost.html */
 @font-face {
-  font-family: "Jost*";
-  src: url("/fonts/Jost/Jost-400-Book.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
+	font-family: "Jost*";
+	src: url("/fonts/Jost/Jost-400-Book.woff2") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
 }
 @font-face {
-  font-family: "Jost*";
-  src: url("/fonts/Jost/Jost-400-BookItalic.woff2") format("woff2");
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
+	font-family: "Jost*";
+	src: url("/fonts/Jost/Jost-400-BookItalic.woff2") format("woff2");
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
 }
 @font-face {
-  font-family: "Jost*";
-  src: url("/fonts/Jost/Jost-500-Medium.woff2") format("woff2");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
+	font-family: "Jost*";
+	src: url("/fonts/Jost/Jost-500-Medium.woff2") format("woff2");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
 }
 @font-face {
-  font-family: "Jost*";
-  src: url("/fonts/Jost/Jost-500-MediumItalic.woff2") format("woff2");
-  font-weight: 500;
-  font-style: italic;
-  font-display: swap;
+	font-family: "Jost*";
+	src: url("/fonts/Jost/Jost-500-MediumItalic.woff2") format("woff2");
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap;
 }
 
 /* Courier Prime Source */
 @font-face {
-  font-family: "Courier Prime Source";
-  src: url("/fonts/CourierPrimeSource/CourierPrimeSource.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
+	font-family: "Courier Prime Source";
+	src: url("/fonts/CourierPrimeSource/CourierPrimeSource.woff2") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
 }
 
 html {overflow-y: scroll}
@@ -98,10 +98,10 @@ a:hover {
 	color: #EE0000;
 }
 img {
-    display: block;
-    height: 100%;
-    margin: 0 auto;
-    max-width: 100%;
+		display: block;
+	height: 100%;
+	margin: 0 auto;
+	max-width: 100%;
 }
 img.site-logo {
 	display: inline;
