@@ -1,15 +1,17 @@
 /* Josefin Sans */
 @font-face {
-  font-family: "Josefin Sans";
-  src: url("/fonts/JosefinSans/JosefinSans-VariableFont_wght.woff2") format("woff2");
-  font-style: normal;
-  font-display: swap;
+	font-family: "Josefin Sans";
+	src: url("/fonts/JosefinSans/JosefinSans-VariableFont_wght.woff2") format("woff2");
+	font-style: normal;
+	font-display: swap;
+	font-weight: 1 999;
 }
 @font-face {
-  font-family: "Josefin Sans";
-  src: url("/fonts/JosefinSans/JosefinSans-Italic-VariableFont_wght.woff2") format("woff2");
-  font-style: italic;
-  font-display: swap;
+	font-family: "Josefin Sans";
+	src: url("/fonts/JosefinSans/JosefinSans-Italic-VariableFont_wght.woff2") format("woff2");
+	font-style: italic;
+	font-display: swap;
+	font-weight: 1 999;
 }
 
 body {
