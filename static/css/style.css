@@ -111,6 +111,7 @@ img.site-logo {
 }
 code {
 	font-family: "Courier Prime Source", "Courier", "Courier New", monospace;
+	font-size: 0.95em;
 }
 p > code {
 	color: #fff;
@@ -122,6 +123,7 @@ pre {
 	background: #000;
 	padding: 10px;
 	overflow-x: auto;
+	line-height: 1.2;
 }
 article {
 	padding: 20px 0
