@@ -8,14 +8,14 @@
 	{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
 	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
 	<link rel="stylesheet" href="{{ "css/style.css" | relURL }}?rnd={{ now.Unix }}">
+	{{ range .Site.Params.customCSS -}}
+		<link rel="stylesheet" href="{{ . | relURL }}?rnd={{ now.Unix }}">
+	{{- end }}
 	{{ if isset .Site.Params "preloadwoff2fonts" }}
 		{{ range .Site.Params.preloadWoff2Fonts -}}
 			<link rel="preload" href="{{ .  | relURL }}" as="font" type="font/woff2" crossorigin>
 		{{- end }}
 	{{ end }}
-	{{ range .Site.Params.customCSS -}}
-		<link rel="stylesheet" href="{{ . | relURL }}?rnd={{ now.Unix }}">
-	{{- end }}
 	{{ if isset .Site.Params "favicon" }}<link rel="icon" 
 		{{ if isset .Site.Params "favicontype" }}
 			type="{{ .Site.Params.FaviconType }}"
