@@ -1,63 +1,3 @@
-/* URW Gothic L */
-@font-face {
-	font-family: "URW Gothic L";
-	src: url("/fonts/URWGothicL/URWGothicLBook.woff2") format("woff2");
-	font-weight: 400;
-	font-style: normal;
-	font-display: swap;
-}
-@font-face {
-	font-family: "URW Gothic L";
-	src: url("/fonts/URWGothicL/URWGothicLBookItalic.woff2") format("woff2");
-	font-weight: 400;
-	font-style: italic;
-	font-display: swap;
-}
-@font-face {
-	font-family: "URW Gothic L";
-	src: url("/fonts/URWGothicL/URWGothicLBold.woff2") format("woff2");
-	font-weight: 700;
-	font-style: normal;
-	font-display: swap;
-}
-@font-face {
-	font-family: "URW Gothic L";
-	src: url("/fonts/URWGothicL/URWGothicLBoldItalic.woff2") format("woff2");
-	font-weight: 700;
-	font-style: italic;
-	font-display: swap;
-}
-
-/* Jost - http://indestructibletype.com/Jost.html */
-@font-face {
-	font-family: "Jost*";
-	src: url("/fonts/Jost/Jost-400-Book.woff2") format("woff2");
-	font-weight: 400;
-	font-style: normal;
-	font-display: swap;
-}
-@font-face {
-	font-family: "Jost*";
-	src: url("/fonts/Jost/Jost-400-BookItalic.woff2") format("woff2");
-	font-weight: 400;
-	font-style: italic;
-	font-display: swap;
-}
-@font-face {
-	font-family: "Jost*";
-	src: url("/fonts/Jost/Jost-500-Medium.woff2") format("woff2");
-	font-weight: 500;
-	font-style: normal;
-	font-display: swap;
-}
-@font-face {
-	font-family: "Jost*";
-	src: url("/fonts/Jost/Jost-500-MediumItalic.woff2") format("woff2");
-	font-weight: 500;
-	font-style: italic;
-	font-display: swap;
-}
-
 /* Courier Prime Source */
 @font-face {
 	font-family: "Courier Prime Source";
@@ -73,14 +13,14 @@ body {
 	margin: 40px auto;
 	padding: 0 10px;
 	color: #222;
-	font-family: "URW Gothic L", "Tex Gyre Adventor", "Century Gothic", Avenir, sans-serif;
+	font-family: Avenir, sans-serif;
 	font-weight: 400;
 	text-rendering: optimizeLegibility;
 	font-size: 16px;
 	line-height: 1.5;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Jost*", Futura, "URW Gothic L", "Tex Gyre Adventor", "Century Gothic", sans-serif;
+	font-family: Futura, sans-serif;
 	font-weight: 500;
 	letter-spacing: 0.2px;
 	text-rendering: optimizeLegibility;
@@ -98,7 +38,7 @@ a:hover {
 	color: #EE0000;
 }
 img {
-		display: block;
+	display: block;
 	height: 100%;
 	margin: 0 auto;
 	max-width: 100%;

@@ -56,6 +56,64 @@
 	font-display: swap;
 }
 
+/* Jost - http://indestructibletype.com/Jost.html */
+@font-face {
+	font-family: "Jost*";
+	src: url("/fonts/Jost/Jost-400-Book.woff2") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Jost*";
+	src: url("/fonts/Jost/Jost-400-BookItalic.woff2") format("woff2");
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Jost*";
+	src: url("/fonts/Jost/Jost-500-Medium.woff2") format("woff2");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Jost*";
+	src: url("/fonts/Jost/Jost-500-MediumItalic.woff2") format("woff2");
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Jost*";
+	src: url("/fonts/Jost/Jost-600-Semi.woff2") format("woff2");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Jost*";
+	src: url("/fonts/Jost/Jost-600-SemiItalic.woff2") format("woff2");
+	font-weight: 600;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Jost*";
+	src: url("/fonts/Jost/Jost-700-Bold.woff2") format("woff2");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Jost*";
+	src: url("/fonts/Jost/Jost-700-BoldItalic.woff2") format("woff2");
+	font-weight: 700;
+	font-style: italic;
+	font-display: swap;
+}
+
 body {
 	font-family: "Jost*", Futura, Helvetica, sans-serif;
 	font-weight: 400;
