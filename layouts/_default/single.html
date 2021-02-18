@@ -16,7 +16,7 @@
 				{{ end }}
 			</p>
 			<div>
-				{{ $content := replace .RawContent "<!--more-->" "" | markdownify }}
+				{{ $content := replace .RawContent "<!--more-->" "" | markdownify | emojify }}
 				{{ $content }}
 			</div>
 		</article>
