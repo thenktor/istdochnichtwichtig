@@ -1,6 +1,6 @@
 <header>
 	<h1 class="site-title">
-		{{ if isset .Site.Params "logo" }}<a href="{{ .Site.BaseURL }}"><img class="site-logo" src="{{ .Site.Params.Logo }}"></a>&ensp;{{ end }}
+		{{ if isset .Site.Params "logo" }}<a href="{{ .Site.BaseURL }}"><img class="site-logo" alt="website logo" src="{{ .Site.Params.Logo }}"></a>&ensp;{{ end }}
 		<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}{{ if isset .Site.Params "titleappend" }} {{ .Site.Params.TitleAppend }}{{ end }}</a>
 	</h1>
 	<hr>
