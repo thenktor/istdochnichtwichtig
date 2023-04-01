@@ -51,6 +51,9 @@ customCSS = ["css/custom.css"]
 
 # how many antries should the list have? (tags, categories, ...)
 paginateList = 100
+
+# font files that should be preloaded before loading CSS
+preloadWoff2Fonts = ["/fonts/JosefinSans/JosefinSans-VariableFont_wght.woff2", "/fonts/Jost/Jost-400-Book.woff2"]
 ```
 
 Lastly, add the following lines to your `config.toml` to make use of all the menu entries in the header and footer sections if you need them.
