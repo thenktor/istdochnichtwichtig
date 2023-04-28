@@ -5,7 +5,7 @@
 			<div>
 				<h3>VERWANDTE BEITRÄGE</h3>
 			</div>
-			<div>
+			<div class="sidebar-enum">
 				<ul>
 				{{ range . }}
 				<li><a href="{{ .RelPermalink }}">{{ .Title }}</a> <small>({{ .Date.Format "02.01.2006" }})</small></li>
@@ -16,7 +16,7 @@
 		<div>
 			<h3>ZUFÄLLIGE BEITRÄGE</h3>
 		</div>
-		<div>
+		<div class="sidebar-enum">
 			<ul>
 				{{ range first 3 (shuffle (where (where .Site.RegularPages "Section" "posts") "Title" "!=" .Title )) }}
 				<li><a href="{{ .RelPermalink }}">{{ .Title }}</a> <small>({{ .Date.Format "02.01.2006" }})</small></li>

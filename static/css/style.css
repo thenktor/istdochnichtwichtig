@@ -88,6 +88,9 @@ article {
 	text-decoration: none;
 	color: #222;
 }
+.sidebar-enum {
+	line-height: 170%;
+}
 p.post-date-tags {
 	font-size: smaller;
 }
