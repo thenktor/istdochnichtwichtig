@@ -1,0 +1,59 @@
+/* EB Garamond, original version, http://www.georgduffner.at/ebgaramond/index.html */
+@font-face {
+	font-family: "EB Garamond 08";
+	src: url("/fonts/EBGaramond/EBGaramond08-Regular.woff2") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "EB Garamond 08";
+	src: url("/fonts/EBGaramond/EBGaramond08-Italic.woff2") format("woff2");
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: "EB Garamond 12";
+	src: url("/fonts/EBGaramond/EBGaramond12-Regular.woff2") format("woff2");
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "EB Garamond 12";
+	src: url("/fonts/EBGaramond/EBGaramond12-Italic.woff2") format("woff2");
+	font-style: italic;
+	font-display: swap;
+}
+
+body {
+	font-family: "EB Garamond 12", "Garamond MT", Garamond, serif;
+	font-weight: 400;
+	font-size: 1.125em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "EB Garamond 12", "Garamond MT", Garamond, serif;
+	font-weight: 700;
+}
+
+/* font sizes for headings, slightly greater than default */
+h1 {
+	font-size: 1.625em;
+}
+h2 {
+	font-size: 1.375em;
+}
+h3 {
+	font-size: 1.25em;
+}
+h4 {
+	font-size: 1.075em;
+}
+h5 {
+	font-size: 0.875em;
+}
+
+code {
+	font-size: 0.875em;
+}
