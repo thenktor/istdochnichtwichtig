@@ -29,23 +29,24 @@
 body {
 	font-family: "EB Garamond 12", "Garamond MT", Garamond, serif;
 	font-weight: 400;
-	font-size: 1.125em;
+	font-size: 1.25em;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: "EB Garamond 12", "Garamond MT", Garamond, serif;
 	font-weight: 700;
+	letter-spacing: 0.025em;
 }
 
 /* font sizes for headings, slightly greater than default */
 h1 {
-	font-size: 1.625em;
+	font-size: 1.5em;
 }
 h2 {
-	font-size: 1.375em;
+	font-size: 1.25em;
 }
 h3 {
-	font-size: 1.25em;
+	font-size: 1.125em;
 }
 h4 {
 	font-size: 1.075em;
