@@ -81,7 +81,9 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
 }
 
-/* font sizes for headings, slightly greater than default */
+h1.site-title {
+	font-size: 1.875em;
+}
 h1 {
 	font-size: 1.625em;
 }
